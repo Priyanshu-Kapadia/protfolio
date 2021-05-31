@@ -514,6 +514,14 @@ a {
 		font-size: 1.2rem;
 	}
 
+	#contact .contact-info h1 {
+		font-size: 1.3rem;
+	}
+	#contact .contact-info h2 {
+		font-size: 0.8rem;
+		line-height: 1.2rem;
+	}
+
 	/* Footer Mobile */
 	.brand h1 {
 		font-size: 1rem;
