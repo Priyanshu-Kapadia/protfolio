@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/c58d9811db.js" crossorigin="anonymous"></script>
+    <link rel = "icon" href = "images/falcon.png" type = "image/x-icon">
     <title>Sign In & Sign Up</title>
     <link rel="stylesheet" href="login.css">
 </head>
@@ -11,63 +12,63 @@
     <div class="container">
         <div class="forms-container">
             <div class="signin-signup">
-                <form action="index.html" class="sign-in-form">
+                <form action="index.html" name="mySignin" class="sign-in-form" onsubmit="return loginvalidate()">
                     <h2 class="title">Sign In</h2>
                     <div class="input-field">
                         <i class="fas fa-user"></i>
-                        <input type="text" placeholder="Username">
+                        <input type="text" name="user" placeholder="Username">
                     </div>
                     <div class="input-field">
                         <i class="fas fa-lock"></i>
-                        <input type="password" placeholder="Password">
+                        <input type="password" name="pass" placeholder="Password">
                     </div>
                     <input type="submit" value="Login" href='index.html' class="btn solid">
                     
                     <p class="social-text">Or Sign In With Social Network</p>
                     <div class="social-media">
-                        <a href="#" class="social-icon">
+                        <a href="https://www.facebook.com/priyanshu.kapadia.5" target="_blank" class="social-icon">
                             <i class="fab fa-facebook-f"></i>
                         </a>
-                        <a href="#" class="social-icon">
+                        <a href="https://github.com/Priyanshu-Kapadia" target="_blank" class="social-icon">
                             <i class="fab fa-github"></i>
                         </a>
-                        <a href="#" class="social-icon">
-                            <i class="fab fa-google"></i>
+                        <a href="https://www.instagram.com/priyanshukapadia/" target="_blank" class="social-icon">
+                            <i class="fab fa-instagram"></i>
                         </a>
-                        <a href="#" class="social-icon">
+                        <a href="https://www.linkedin.com/in/priyanshu-kapadia-467895194/" target="_blank" class="social-icon">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
                     </div>
                 </form>
 
-                <form action="login.html" class="sign-up-form">
+                <form action="login.html" name="mySignup" class="sign-up-form" onsubmit="return validateForm()">
                     <h2 class="title">Sign Up</h2>
                     <div class="input-field">
                         <i class="fas fa-user"></i>
-                        <input type="text" placeholder="Username">
+                        <input type="text" placeholder="Username" name="username">
                     </div>
                     <div class="input-field">
                         <i class="fas fa-envelope"></i>
-                        <input type="text" placeholder="Email">
+                        <input type="text" name="email" placeholder="Email">
                     </div>
                     <div class="input-field">
                         <i class="fas fa-lock"></i>
-                        <input type="password" placeholder="Password">
+                        <input type="password" name="password" placeholder="Password">
                     </div>
                     <input type="submit" value="Sign up" class="btn solid">
                     
                     <p class="social-text">Or Sign up With Social Network</p>
                     <div class="social-media">
-                        <a href="#" class="social-icon">
+                        <a href="https://www.facebook.com/priyanshu.kapadia.5" target="_blank" class="social-icon">
                             <i class="fab fa-facebook-f"></i>
                         </a>
-                        <a href="#" class="social-icon">
+                        <a href="https://github.com/Priyanshu-Kapadia" target="_blank" class="social-icon">
                             <i class="fab fa-github"></i>
                         </a>
-                        <a href="#" class="social-icon">
-                            <i class="fab fa-google"></i>
+                        <a href="https://www.instagram.com/priyanshukapadia/" target="_blank" class="social-icon">
+                            <i class="fab fa-instagram"></i>
                         </a>
-                        <a href="#" class="social-icon">
+                        <a href="https://www.linkedin.com/in/priyanshu-kapadia-467895194/" target="_blank" class="social-icon">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
                     </div>
